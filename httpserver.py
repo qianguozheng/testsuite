@@ -54,9 +54,9 @@ class MyHandler(BaseHTTPRequestHandler):
 
 			self.end_headers()
 #write file
-			f = open("./0");
-			self.wfile.write(f.read())
-			f.close()
+			#f = open("./0");
+			#self.wfile.write(f.read())
+			#f.close()
 			return
 
 def main():
